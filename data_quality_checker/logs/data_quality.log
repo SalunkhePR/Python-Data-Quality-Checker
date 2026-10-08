@@ -1,0 +1,165 @@
+2026-10-08 15:46:12,978 | INFO     | main | ============================================================
+2026-10-08 15:46:12,978 | INFO     | main | Data Quality Checker starting
+2026-10-08 15:46:12,979 | INFO     | main | Project : qwiklabs-gcp-01-794e159f2a20
+2026-10-08 15:46:12,980 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 15:46:12,980 | INFO     | main | ============================================================
+2026-10-08 15:56:58,458 | INFO     | main | ============================================================
+2026-10-08 15:56:58,459 | INFO     | main | Data Quality Checker starting
+2026-10-08 15:56:58,460 | INFO     | main | Project : qwiklabs-gcp-01-794e159f2a20
+2026-10-08 15:56:58,461 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 15:56:58,488 | INFO     | main | ============================================================
+2026-10-08 15:58:45,659 | INFO     | main | ============================================================
+2026-10-08 15:58:45,660 | INFO     | main | Data Quality Checker starting
+2026-10-08 15:58:45,660 | INFO     | main | Project : qwiklabs-gcp-01-794e159f2a20
+2026-10-08 15:58:45,660 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 15:58:45,660 | INFO     | main | ============================================================
+2026-10-08 16:02:08,946 | INFO     | main | ============================================================
+2026-10-08 16:02:08,946 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:02:08,946 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:02:08,947 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:02:08,947 | INFO     | main | ============================================================
+2026-10-08 16:02:09,030 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:02:17,584 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:02:23,973 | INFO     | main | ------------------------------------------------------------
+2026-10-08 16:02:23,973 | INFO     | main | Finished: 11 total checks, 7 failed
+2026-10-08 16:02:23,974 | ERROR    | src.alerter | Email password not found in environment variable 'gnic uuha qnmk xjzn'. Alert will not be sent.
+2026-10-08 16:06:22,150 | INFO     | main | ============================================================
+2026-10-08 16:06:22,150 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:06:22,151 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:06:22,151 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:06:22,152 | INFO     | main | ============================================================
+2026-10-08 16:06:22,228 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:06:25,920 | INFO     | src.checker | [Orders] PASS -> Column `order_id`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:06:25,921 | WARNING  | src.checker | [Orders] FAIL -> Column `customer_id`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:06:25,922 | INFO     | src.checker | [Orders] PASS -> Column `order_date`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:06:25,922 | WARNING  | src.checker | [Orders] FAIL -> Column `amount`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:06:29,900 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:06:32,454 | INFO     | src.checker | [Customers] PASS -> Column `customer_id`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:06:32,455 | WARNING  | src.checker | [Customers] FAIL -> Column `email`: 1 nulls (14.29%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:06:32,456 | INFO     | src.checker | [Customers] PASS -> Column `created_at`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:06:36,246 | INFO     | main | ------------------------------------------------------------
+2026-10-08 16:06:36,246 | INFO     | main | Finished: 11 total checks, 7 failed
+2026-10-08 16:06:36,247 | ERROR    | src.alerter | Email password not found in environment variable 'EMAIL_PASSWORD'. Alert will not be sent.
+2026-10-08 16:08:31,984 | INFO     | main | ============================================================
+2026-10-08 16:08:31,985 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:08:31,985 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:08:31,985 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:08:31,986 | INFO     | main | ============================================================
+2026-10-08 16:08:32,061 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:08:35,245 | INFO     | src.checker | [Orders] PASS -> Column `order_id`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:08:35,246 | WARNING  | src.checker | [Orders] FAIL -> Column `customer_id`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:08:35,246 | INFO     | src.checker | [Orders] PASS -> Column `order_date`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:08:35,248 | WARNING  | src.checker | [Orders] FAIL -> Column `amount`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:08:38,821 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:08:40,449 | INFO     | src.checker | [Customers] PASS -> Column `customer_id`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:08:40,450 | WARNING  | src.checker | [Customers] FAIL -> Column `email`: 1 nulls (14.29%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:08:40,451 | INFO     | src.checker | [Customers] PASS -> Column `created_at`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:08:44,252 | INFO     | main | ------------------------------------------------------------
+2026-10-08 16:08:44,253 | INFO     | main | Finished: 11 total checks, 7 failed
+2026-10-08 16:08:48,640 | INFO     | src.alerter | Alert email sent to ['salunkheprathamesh66@gmail.com']
+2026-10-08 16:13:30,749 | INFO     | main | ============================================================
+2026-10-08 16:13:30,750 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:13:30,750 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:13:30,750 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:13:30,750 | INFO     | main | ============================================================
+2026-10-08 16:13:30,852 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:13:34,132 | INFO     | src.checker | [Orders] PASS -> Column `order_id`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:13:34,132 | WARNING  | src.checker | [Orders] FAIL -> Column `customer_id`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:13:34,133 | INFO     | src.checker | [Orders] PASS -> Column `order_date`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:13:34,134 | WARNING  | src.checker | [Orders] FAIL -> Column `amount`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:13:35,848 | WARNING  | src.checker | [Orders] FAIL -> Primary key(s) [order_id]: 1 duplicate row(s) (9 total / 8 distinct)
+2026-10-08 16:13:37,590 | WARNING  | src.checker | [Orders] FAIL -> Row count mismatch: source=10  target=9  difference=1
+2026-10-08 16:13:37,590 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:13:39,334 | INFO     | src.checker | [Customers] PASS -> Column `customer_id`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:13:39,335 | WARNING  | src.checker | [Customers] FAIL -> Column `email`: 1 nulls (14.29%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:13:39,336 | INFO     | src.checker | [Customers] PASS -> Column `created_at`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:13:40,967 | WARNING  | src.checker | [Customers] FAIL -> Primary key(s) [customer_id]: 1 duplicate row(s) (7 total / 6 distinct)
+2026-10-08 16:13:42,712 | WARNING  | src.checker | [Customers] FAIL -> Row count mismatch: source=6  target=7  difference=1
+2026-10-08 16:13:42,718 | INFO     | main | ------------------------------------------------------------
+2026-10-08 16:13:42,719 | INFO     | main | Finished: 11 total checks, 7 failed
+2026-10-08 16:13:46,804 | INFO     | src.alerter | Alert email sent to ['salunkheprathamesh66@gmail.com']
+2026-10-08 16:15:36,396 | INFO     | main | ============================================================
+2026-10-08 16:15:36,397 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:15:36,397 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:15:36,398 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:15:36,398 | INFO     | main | ============================================================
+2026-10-08 16:15:36,635 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:17:36,149 | INFO     | main | ============================================================
+2026-10-08 16:17:36,149 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:17:36,149 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:17:36,150 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:17:36,150 | INFO     | main | ============================================================
+2026-10-08 16:17:36,238 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:17:39,700 | INFO     | src.checker | [Orders] PASS -> Column `order_id`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:17:39,701 | WARNING  | src.checker | [Orders] FAIL -> Column `customer_id`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:17:39,702 | INFO     | src.checker | [Orders] PASS -> Column `order_date`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:17:39,702 | WARNING  | src.checker | [Orders] FAIL -> Column `amount`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:17:41,408 | WARNING  | src.checker | [Orders] FAIL -> Primary key(s) [order_id]: 1 duplicate row(s) (9 total / 8 distinct)
+2026-10-08 16:17:43,186 | WARNING  | src.checker | [Orders] FAIL -> Row count mismatch: source=10  target=9  difference=1
+2026-10-08 16:17:43,187 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:17:44,988 | INFO     | src.checker | [Customers] PASS -> Column `customer_id`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:17:44,989 | WARNING  | src.checker | [Customers] FAIL -> Column `email`: 1 nulls (14.29%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:17:44,989 | INFO     | src.checker | [Customers] PASS -> Column `created_at`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:17:46,728 | WARNING  | src.checker | [Customers] FAIL -> Primary key(s) [customer_id]: 1 duplicate row(s) (7 total / 6 distinct)
+2026-10-08 16:17:48,572 | WARNING  | src.checker | [Customers] FAIL -> Row count mismatch: source=6  target=7  difference=1
+2026-10-08 16:17:48,576 | INFO     | main | ------------------------------------------------------------
+2026-10-08 16:17:48,576 | INFO     | main | Finished: 11 total checks, 7 failed
+2026-10-08 16:17:52,416 | INFO     | src.alerter | Alert email sent to ['salunkheprathamesh66@gmail.com']
+2026-10-08 16:23:57,602 | INFO     | main | ============================================================
+2026-10-08 16:23:57,603 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:23:57,603 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:23:57,603 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:23:57,603 | INFO     | main | ============================================================
+2026-10-08 16:23:57,670 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:24:00,831 | INFO     | src.checker | [Orders] PASS -> Column `order_id`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:24:00,832 | WARNING  | src.checker | [Orders] FAIL -> Column `customer_id`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:24:00,833 | INFO     | src.checker | [Orders] PASS -> Column `order_date`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:24:00,834 | WARNING  | src.checker | [Orders] FAIL -> Column `amount`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:24:02,635 | WARNING  | src.checker | [Orders] FAIL -> Primary key(s) [order_id]: 1 duplicate row(s) (9 total / 8 distinct)
+2026-10-08 16:24:04,274 | WARNING  | src.checker | [Orders] FAIL -> Row count mismatch: source=10  target=9  difference=1
+2026-10-08 16:24:04,275 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:24:06,123 | INFO     | src.checker | [Customers] PASS -> Column `customer_id`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:24:06,126 | WARNING  | src.checker | [Customers] FAIL -> Column `email`: 1 nulls (14.29%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:24:06,129 | INFO     | src.checker | [Customers] PASS -> Column `created_at`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:24:07,728 | WARNING  | src.checker | [Customers] FAIL -> Primary key(s) [customer_id]: 1 duplicate row(s) (7 total / 6 distinct)
+2026-10-08 16:24:09,138 | WARNING  | src.checker | [Customers] FAIL -> Row count mismatch: source=6  target=7  difference=1
+2026-10-08 16:24:09,143 | INFO     | main | ------------------------------------------------------------
+2026-10-08 16:24:09,144 | INFO     | main | Finished: 11 total checks, 7 failed
+2026-10-08 16:24:12,902 | INFO     | src.alerter | Alert email sent to ['salunkheprathamesh66@gmail.com']
+2026-10-08 16:35:03,957 | INFO     | main | ============================================================
+2026-10-08 16:35:03,957 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:35:03,958 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:35:03,958 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:35:03,958 | INFO     | main | ============================================================
+2026-10-08 16:35:04,097 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:35:07,340 | INFO     | src.checker | [Orders] PASS -> Column `order_id`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:35:07,341 | WARNING  | src.checker | [Orders] FAIL -> Column `customer_id`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:35:07,341 | INFO     | src.checker | [Orders] PASS -> Column `order_date`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:35:07,342 | WARNING  | src.checker | [Orders] FAIL -> Column `amount`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:35:09,245 | WARNING  | src.checker | [Orders] FAIL -> Primary key(s) [order_id]: 1 duplicate row(s) (9 total / 8 distinct)
+2026-10-08 16:35:11,293 | WARNING  | src.checker | [Orders] FAIL -> Row count mismatch: source=10  target=9  difference=1
+2026-10-08 16:35:11,293 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:35:12,973 | INFO     | src.checker | [Customers] PASS -> Column `customer_id`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:35:12,974 | WARNING  | src.checker | [Customers] FAIL -> Column `email`: 1 nulls (14.29%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:35:12,975 | INFO     | src.checker | [Customers] PASS -> Column `created_at`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:38:19,507 | INFO     | main | ============================================================
+2026-10-08 16:38:19,508 | INFO     | main | Data Quality Checker starting
+2026-10-08 16:38:19,508 | INFO     | main | Project : qwiklabs-gcp-01-d3afed3da6bc
+2026-10-08 16:38:19,509 | INFO     | main | Tables  : Orders, Customers
+2026-10-08 16:38:19,509 | INFO     | main | ============================================================
+2026-10-08 16:38:19,596 | INFO     | src.checker | Starting checks for table: Orders
+2026-10-08 16:38:23,004 | INFO     | src.checker | [Orders] PASS -> Column `order_id`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:38:23,004 | WARNING  | src.checker | [Orders] FAIL -> Column `customer_id`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:38:23,005 | INFO     | src.checker | [Orders] PASS -> Column `order_date`: 0 nulls (0.00%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:38:23,006 | WARNING  | src.checker | [Orders] FAIL -> Column `amount`: 1 nulls (11.11%) out of 9 rows (threshold: 0.0%)
+2026-10-08 16:38:24,731 | WARNING  | src.checker | [Orders] FAIL -> Primary key(s) [order_id]: 1 duplicate row(s) (9 total / 8 distinct)
+2026-10-08 16:38:26,506 | WARNING  | src.checker | [Orders] FAIL -> Row count mismatch: source=10  target=9  difference=1
+2026-10-08 16:38:26,507 | INFO     | src.checker | Starting checks for table: Customers
+2026-10-08 16:38:28,273 | INFO     | src.checker | [Customers] PASS -> Column `customer_id`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:38:28,274 | WARNING  | src.checker | [Customers] FAIL -> Column `email`: 1 nulls (14.29%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:38:28,275 | INFO     | src.checker | [Customers] PASS -> Column `created_at`: 0 nulls (0.00%) out of 7 rows (threshold: 0.5%)
+2026-10-08 16:38:30,157 | WARNING  | src.checker | [Customers] FAIL -> Primary key(s) [customer_id]: 1 duplicate row(s) (7 total / 6 distinct)
+2026-10-08 16:38:31,798 | WARNING  | src.checker | [Customers] FAIL -> Row count mismatch: source=6  target=7  difference=1
+2026-10-08 16:38:31,829 | INFO     | main | ------------------------------------------------------------
+2026-10-08 16:38:31,831 | INFO     | main | Finished: 11 total checks, 7 failed
+2026-10-08 16:38:36,426 | INFO     | src.alerter | Alert email sent to ['salunkheprathamesh66@gmail.com']

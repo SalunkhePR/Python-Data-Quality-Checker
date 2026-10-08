@@ -1,0 +1,43 @@
+# Data Quality Checker Configuration
+# Copy this file to config.yaml and fill in your values
+
+project_id: "qwiklabs-gcp-01-d3afed3da6bc"
+
+# Tables to compare (source vs target)
+tables:
+  - name: "Orders"
+    source: "raw_dataset.Orders"
+    target: "curated_dataset.Orders"
+    primary_keys: ["order_id"]          # Columns used for duplicate detection
+    critical_columns:                   # Columns checked for nulls
+      - order_id
+      - customer_id
+      - order_date
+      - amount
+    null_threshold_pct: 0.0             # Fail if null % exceeds this (0 = any null fails)
+
+  - name: "Customers"
+    source: "raw_dataset.Customers"
+    target: "curated_dataset.Customers"
+    primary_keys: ["customer_id"]
+    critical_columns:
+      - customer_id
+      - email
+      - created_at
+    null_threshold_pct: 0.5
+
+# Email alerting
+email:
+  enabled: true
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  sender: "XYZ@gmail.com"
+  # Use App Password for Gmail (not your regular password)
+  password_env: "EMAIL_PASSWORD"        # Name of env var holding the password
+  recipients:
+    - "XYZ@gmail.com"
+  subject_prefix: "[Data Quality Alert]"
+
+# Logging
+log_level: "INFO"
+log_file: "logs/data_quality.log"
